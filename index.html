@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="form-container">
+        <div class="form-section">
+          <form>
+            <fieldset>
+              <legend>Informations personnelles</legend>
+              <ul>
+                <li>
+                  <label for="prenom">Prénom:</label>
+                  <input type="text" id="prenom" name="prenom" />
+                </li>
+                <li>
+                  <label for="nom">Nom:</label>
+                  <input type="text" id="nom" name="nom" />
+                </li>
+                <li>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" />
+                </li>
+                <li>
+                  <label for="password">Mot de passe:</label>
+                  <input type="password" id="password" name="password" />
+                </li>
+                <li>
+                  <label for="confirm_password"
+                    >Confirmation mot de passe:</label
+                  >
+                  <input
+                    type="password"
+                    id="confirm_password"
+                    name="confirm_password"
+                  />
+                </li>
+                <li>
+                  <label for="birthdate">Date de naissance:</label>
+                  <input type="date" id="birthdate" name="birthdate" />
+                </li>
+                <li>
+                  <label for="age">Âge:</label>
+                  <input type="number" id="age" name="age" />
+                </li>
+                <li>
+                  <label for="genre">Genre:</label>
+                  <select id="genre" name="genre">
+                    <option value="">Sélectionner...</option>
+                    <option value="homme">Homme</option>
+                    <option value="femme">Femme</option>
+                    <option value="autre">Autre</option>
+                  </select>
+                </li>
+                <li>
+                  <label for="orientation">Orientation:</label>
+                  <input type="text" id="orientation" name="orientation" />
+                </li>
+              </ul>
+            </fieldset>
+          </form>
+        </div>
+
+        <div class="form-section">
+          <form>
+            <fieldset>
+              <legend>Description physique</legend>
+              <ul>
+                <li>
+                  <label for="photo">Photo de profil:</label>
+                  <input type="file" id="photo" name="photo" accept="image/*" />
+                </li>
+                <li>
+                  <label for="taille">Taille:</label>
+                  <input
+                    type="text"
+                    id="taille"
+                    name="taille"
+                    placeholder="ex: 175 cm"
+                  />
+                </li>
+                <li>
+                  <label for="poids">Poids:</label>
+                  <input
+                    type="text"
+                    id="poids"
+                    name="poids"
+                    placeholder="ex: 70 kg"
+                  />
+                </li>
+                <li>
+                  <label for="yeux">Yeux:</label>
+                  <input type="text" id="yeux" name="yeux" />
+                </li>
+                <li>
+                  <label for="cheveux">Cheveux:</label>
+                  <input type="text" id="cheveux" name="cheveux" />
+                </li>
+              </ul>
+            </fieldset>
+          </form>
+        </div>
+
+        <div class="form-section">
+          <form>
+            <fieldset>
+              <legend>Localisation</legend>
+              <ul>
+                <li>
+                  <label for="ville">Ville:</label>
+                  <input type="text" id="ville" name="ville" />
+                </li>
+                <li>
+                  <label for="code_postal">Code postal:</label>
+                  <input type="text" id="code_postal" name="code_postal" />
+                </li>
+              </ul>
+            </fieldset>
+          </form>
+        </div>
+
+        <div class="form-section section-3">
+          <form>
+            <fieldset>
+              <legend>Personnalité</legend>
+              <div class="personality-section">
+                <div>
+                  <label for="description">Description:</label>
+                  <textarea
+                    id="description"
+                    name="description"
+                    placeholder="Décrivez-vous en quelques mots..."
+                  ></textarea>
+                </div>
+                <div>
+                  <label for="traits">Traits de personnalité:</label>
+                  <select id="traits" name="traits">
+                    <option value="">Sélectionner...</option>
+                    <option value="curieux">Curieux</option>
+                    <option value="calme">Calme</option>
+                    <option value="ambitieux">Ambitieux</option>
+                    <option value="sportif">Sportif</option>
+                    <option value="gentil">Gentil</option>
+                  </select>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+
+      <div class="image-section">
+        <img src="/img/EWfOyCcXQAEwbMG.jpg" alt="Profile image" />
+      </div>
+    </div>
+  </body>
+</html>
